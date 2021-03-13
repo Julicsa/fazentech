@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FazenTECH</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+    <link rel="stylesheet" href="application.css">
+  </head>
+
+  <body>
+    <main>
+    <div class="logo">
+
+    <img src="cow.png" alt="logo" width="30%" height="30%">
+    </div>
+
+    <h1 class="farm-name">FazenTECH</h1>
+
+    <h2 class="headline">Monitoramento da Fazenda</h2>
+    <h3 class="conteudo">Interface criada para o auxílio no monitoramento da fazenda, com o propósito simplificar e auxiliar o trabalho dos funcionários</h3>
+    <hr>
+
+    <div class="tabela">
+    <h2 align="center">Ordenha de Vacas</h2>
+      <table align="center">
+        <thead>
+          <tr>
+            <th>VACA</th>
+            <th>LEITE</th>
+            <th>HORÁRIO</th>
+            <th>FUNCIONÁRIO</th>
+          </tr>
+        </thead>
+        <tbody align="center">
+          <tr>
+            <td>021</td> <td>14 litros</td> <td>08:45</td> <td>João</td>
+            </tr>
+            <tr>
+              <td>022</td> <td>17 litros</td> <td>09:20</td> <td>João</td>
+            </tr>
+            <tr>
+              <td>023</td> <td>13 litros</td> <td>07:10</td> <td>Carlos</td>
+            </tr>
+            <tr>
+              <td>027</td> <td>15 litros</td> <td>09:45</td> <td>Carlos</td>
+            </tr>
+            <tr>
+              <td>030</td> <td>17 litros</td> <td>10:20</td> <td>João</td>
+            </tr>
+
+        </tbody>
+      </table>
+    </div>
+    <hr>
+
+    <div class="tabela2">
+    <h2 align="center">Animais Doentes</h2>
+      <table align="center">
+        <thead>
+          <tr>
+            <th>ANIMAL</th>
+            <th>CÓDIGO</th>
+            <th>TRATAMENTO</th>
+            <th>DIA DO TRATAMENTO</th>
+          </tr>
+        </thead>
+        <tbody align="center">
+          <tr>
+            <td>Galinha</td> <td>011</td> <td>Vácina Anti-viral </td> <td>15/11/20</td>
+            </tr>
+            <tr>
+              <td>Porco</td> <td>002</td> <td>Ração Suplemental</td> <td>20/11/20</td>
+            </tr>
+            <tr>
+              <td>Porco</td> <td>049</td> <td>Ivermectina</td> <td>04/11/20</td>
+            </tr>
+
+
+        </tbody>
+      </table>
+    </div>
+
+    </main>
+  </body>
+</html>
